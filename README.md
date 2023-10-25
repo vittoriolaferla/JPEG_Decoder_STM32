@@ -1,6 +1,6 @@
 # JPEG Decoding Library for Miosix and MixGui
 
-This is the README for the custom JPEG decoding library, designed for use with the Miosix system and specifically with MixGui. The library provides the capability to decode JPEG files optimized for STM32 controllers, enabling efficient reading and processing of images.
+This is repository contains the custom JPEG decoding library, designed for use with the Miosix system and specifically with MixGui. The library provides the capability to decode JPEG files optimized for STM32 controllers, enabling efficient reading and processing of images.
 
 ## System Requirements
 
@@ -13,7 +13,7 @@ Before using this library, make sure you have:
 
 To integrate this library into your Miosix project with MixGui, follow these steps:
 
-1. Clone the library's repository into your project or add the library as a Git submodule.
+1. Clone the library's repository into your project or add the library as a Git submodule (https://miosix.org/doxygen/mxgui_1.00/main.html).
 2. Configure your development environment to include the library files.
 3. Refer to the library documentation for further usage instructions.
 
@@ -30,8 +30,3 @@ Our library follows a structured process to decode JPEG files optimized for STM3
 4. **Data Processing:** The application proceeds to manipulate the decoded image data, allowing effective processing and usage in STM32 applications.
 
 For more technical details about the application flow and how the library specifically handles JPEG data, refer to the separate "Flow.md" document.
-
-## License
-
-This library is open source and distributed under the [Insert Your License] license. Consult the "LICENSE" file for further details on the license.
-
